@@ -1,3 +1,6 @@
+NAME:KARTHIKA G
+
+REG NO:212224050017
 ### study-of-basic-gates
 
 **AIM:** 
@@ -64,16 +67,33 @@ Y= A⊕B
 
 **PROGRAM**
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 
+```
+module sample(a,b,yand,yor,ynot,ynor,yxor,ynand,yxnor);
+input a,b;
+output yand,yor,ynot,ynor,yxor,ynand,yxnor;
+and(yand,a,b);
+or(yor,a,b);
+not(ynot,a);
+nand(ynand,a,b);
+nor(ynor,a,b);
+xor(yxor,a,b);
+xnor(yxnor,a,b);
+endmodule
+``` 
  
 **Logic symbol & Truthtable**
 
+![WhatsApp Image 2025-03-18 at 22 20 50_4f9034af](https://github.com/user-attachments/assets/ef1a28f5-4ba1-4f70-9d1d-aa05c5cd7ef3)
+![WhatsApp Image 2025-03-18 at 22 20 53_ef22ef75](https://github.com/user-attachments/assets/4c4422ff-fe97-41ec-81c4-b9c6c02b67c8)
+
 **RTL realization Output:** 
+![Screenshot (1)](https://github.com/user-attachments/assets/9321a8ec-4a6a-44fb-a4a8-5180272134a5)
+
 
 **RTL**
+![Screenshot (2)](https://github.com/user-attachments/assets/25c79ca2-1c6b-4e8d-ab8a-ab26768674a8)
 
 **Result:**
 
+Thus the different digital IC's are studied and the truth table for different logic gates are verified.
 
